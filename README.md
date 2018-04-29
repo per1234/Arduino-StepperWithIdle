@@ -10,7 +10,7 @@ StepperWidle myStepper(2048, 5, 3, 4, 2);
 myStepper.setSpeed(15);
 myStepper.step(50);
 
-myStepper.idle();   /Power down stepper
+myStepper.idle();   //Power down stepper
 delay(5000);
 
-myStepper.step(50); /step another 50 steps
+myStepper.step(50); //step another 50 steps
